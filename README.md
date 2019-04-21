@@ -8,11 +8,11 @@ The travelling salesman problem (TSP ) asks the following question: "Given a lis
 The travelling purchaser problem and the vehicle routing problem are both generalizations of TSP.
 
 ### Program structure:
-![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/Project_Overview.png)  
+![image](image/Project_Overview.png)  
 #### 4 java file and one test case:  
 ![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)  
-![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GAData.PNG)  
-![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)  
+![image](image/GAData.PNG)  
+![image](image/Individual.PNG)  
 ![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/Population.PNG)
 
 #### Structure in each java file  
@@ -21,9 +21,11 @@ The travelling purchaser problem and the vehicle routing problem are both genera
 Set the parameters and the cityPosition map.
 #### Individual.java:
 Set the gene, distance and the fitness.
-Use the greedy algorithm
- 
+Use the greedy algorithm  
+![image](image/Greedy.png)
 #### Population.java:
+
+#### GA.java:
 
 #### User Guide:
 	static int CITY_NUM; // number of citys  
@@ -42,3 +44,4 @@ We can also get random map
 #### Test Result:  
  
 Find the shorest path.
+![image](image/unittest.png)
