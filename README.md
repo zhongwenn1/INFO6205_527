@@ -9,13 +9,14 @@ The travelling salesman problem (TSP ) asks the following question: "Given a lis
 The travelling purchaser problem and the vehicle routing problem are both generalizations of TSP.
 
 ### Program structure:
+#### 4 java file and one test case:  
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/Project_Overview.png)  
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)  
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GAData.PNG)  
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)  
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/Population.PNG)
 
-
-4 java file and one test case;  
-
-Structure in each java file
-![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)
-
+#### Structure in each java file  
 Code Analysis:
 GAData.java:
 Set the parameters and the cityPosition map.
