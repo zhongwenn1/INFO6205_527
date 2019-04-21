@@ -23,10 +23,17 @@ Set the parameters and the cityPosition map.
 Set the gene, distance and the fitness.
 Use the greedy algorithm  
 ![image](image/Greedy.png)
-#### Population.java:
+### Population.java:  
+Set the head point and the species number.  
 
-#### GA.java:
-
+### GA algorithm java:  
+1.run:run the algorithm  
+2.createBeginningSpecies:create the species  
+3.calRate:calculate the rate of each species to be chosen  
+4.select:roulette strategy for choosing the species with high fitting.  
+5.crossover:chromosome crossover  
+6.mutate:chromosome mutation  
+7.getBest:get the most suitable species  
 #### User Guide:
 	static int CITY_NUM; // number of citys  
 	static final int SPECIES_NUM = 200; // number of species  
@@ -40,7 +47,7 @@ We can set the parameters to get the different results.
 Then set the city position, just like the coordinate, take 10 cities as an example, we set the 10 different positions into an array and get to result.  
 We can also write these data into a file and use the data with IO inputStream.  
 We can also get random map  
-
+![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/RndomMap.PNG)  
 #### Test Result:  
  
 Find the shorest path.
