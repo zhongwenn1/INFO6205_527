@@ -15,12 +15,6 @@ import java.util.Random;
 
 public class GA {
 	
-	public GAData td;
-
-	public GA(GAData td) {
-		this.td = td;
-	}
-	
 	/**
 	 * run the algorithm
 	 * @param list
@@ -180,13 +174,13 @@ public class GA {
 					int fir,sec;
 					for(fir=0;!point.genes[fir].equals(point.next.genes[i]);fir++);
 					for(sec=0;!point.next.genes[sec].equals(point.genes[i]);sec++);
-					//两个基因互换
+					// exchange
 					String tmp;
 					tmp=point.genes[i];
 					point.genes[i]=point.next.genes[i];
 					point.next.genes[i]=tmp;
 
-					//消去互换后重复的那个基因
+					// clear after swap
 					point.genes[fir]=point.next.genes[i];
 					point.next.genes[sec]=point.genes[i];
 
