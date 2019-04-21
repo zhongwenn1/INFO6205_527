@@ -9,10 +9,14 @@ The travelling purchaser problem and the vehicle routing problem are both genera
 
 ### Program structure:
 ![image](image/Project_Overview.png)  
-#### 4 java file and one test case:  
+#### Four java file and one test case:  
+#### GA.java  
 ![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/GA.PNG)  
+#### GAData.java  
 ![image](image/GAData.PNG)  
+#### Individual.java  
 ![image](image/Individual.PNG)  
+#### Population.java  
 ![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/Population.PNG)
 
 #### Structure in each java file  
@@ -48,7 +52,7 @@ Then set the city position, just like the coordinate, take 10 cities as an examp
 We can also write these data into a file and use the data with IO inputStream.  
 We can also get random map  
 ![image](https://github.com/zhongwenn1/INFO6205_527/blob/master/image/RndomMap.PNG)  
-#### Test Result:  
- 
-Find the shorest path.
+
+#### Test Result:   
+The test result is to find the shorest path. All the data variables in the GAData.java could be alternatively changed by users to get the desire result. The Unit test are created by taking three different user input to pass into our data structure java files. Then, run the genetic algorithm to get the shorest path and distance. 
 ![image](image/unittest.png)
