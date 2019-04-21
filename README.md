@@ -136,7 +136,7 @@ The test result is to find the shorest path. All the data variables in the GADat
 ![image](image/unittest.png)  
 #### Result from main():  
 
-	static final int GENERATE_NUM = 10000; // number of generation
+	static final int GENERATE_NUM = 1000; // number of generation
 
 ![image](image/randomOuput.PNG)
 
